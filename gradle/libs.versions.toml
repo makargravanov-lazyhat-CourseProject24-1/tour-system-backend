@@ -1,7 +1,9 @@
-
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+spring-kotlin = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotlin" }
+spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
+spring-dependencyManagement = {id = "io.spring.dependency-management", version.ref = "spring-dependencyManagement"}
 
 [versions]
 kotlin = "2.1.0-RC"
@@ -10,7 +12,13 @@ kotlinx-coroutines = "1.9.0"
 kotlinx-collectionsImmutable = "0.3.8"
 koin = "4.0.0"
 
+spring-boot = "3.4.0"
+spring-dependencyManagement = "1.1.6"
+
 [libraries]
 kotlinx-coroutinesSwing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
 kotlinx-serializationJson = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serializationJson" }
 kotlinx-collectionsImmutable = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable", version.ref = "kotlinx-collectionsImmutable" }
+
+spring-boot-starter = {module = "org.springframework.boot:spring-boot-starter"}
+kotlin-reflect = {module = "org.jetbrains.kotlin:kotlin-reflect"}
