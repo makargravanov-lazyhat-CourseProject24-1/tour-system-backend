@@ -4,3 +4,6 @@
 [submodule "ktor/ts-user-service"]
 	path = ktor/ts-user-service
 	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-user-service
+[submodule "ts-backend-common"]
+	path = ts-backend-common
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-backend-common

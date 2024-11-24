@@ -1,5 +1,5 @@
 subprojects {
     dependencies {
-        implementation(rootProject.projects.common)
+        implementation(rootProject.projects.tsBackendCommon)
     }
 }

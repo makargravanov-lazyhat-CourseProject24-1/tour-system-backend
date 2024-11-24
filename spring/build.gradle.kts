@@ -13,7 +13,7 @@ subprojects {
         implementation(rootProject.libs.spring.boot.starter)
         implementation(rootProject.libs.spring.webMVC)
         implementation(rootProject.libs.kotlin.reflect)
-        implementation(rootProject.projects.common)
+        implementation(rootProject.projects.tsBackendCommon)
     }
 
     java {

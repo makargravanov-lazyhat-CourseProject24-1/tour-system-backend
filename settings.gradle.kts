@@ -2,7 +2,7 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 rootProject.name = "tour-system-backend"
 
-val common = "common"
+val common = "ts-backend-common"
 include(":$common")
 
 //SPRING
