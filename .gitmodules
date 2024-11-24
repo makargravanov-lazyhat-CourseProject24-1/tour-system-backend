@@ -1,0 +1,3 @@
+[submodule "spring/ts-client-web-bff"]
+	path = spring/ts-client-web-bff
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-client-web-bff

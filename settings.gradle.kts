@@ -1,6 +1,6 @@
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-rootProject.name = "ts"
+rootProject.name = "tour-system-backend"
 
 val common = "common"
 include(":$common")
@@ -9,7 +9,7 @@ include(":$common")
 val spring = "spring"
 include(":$spring")
 
-val clientwebbff = "clientwebbff"
+val clientwebbff = "ts-client-web-bff"
 include(":$spring:$clientwebbff")
 
 //KTOR
