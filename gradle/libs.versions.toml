@@ -1,0 +1,16 @@
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+
+[versions]
+kotlin = "2.1.0-RC"
+kotlinx-serializationJson = "1.7.3"
+kotlinx-coroutines = "1.9.0"
+kotlinx-collectionsImmutable = "0.3.8"
+koin = "4.0.0"
+
+[libraries]
+kotlinx-coroutinesSwing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
+kotlinx-serializationJson = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serializationJson" }
+kotlinx-collectionsImmutable = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable", version.ref = "kotlinx-collectionsImmutable" }
