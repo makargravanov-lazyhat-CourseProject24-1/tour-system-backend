@@ -15,3 +15,6 @@ include(":$spring:$clientwebbff")
 //KTOR
 val ktor = "ktor"
 include(":$ktor")
+
+val userservice = "userservice"
+include(":$spring:$userservice")
