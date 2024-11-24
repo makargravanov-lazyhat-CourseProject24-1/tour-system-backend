@@ -7,3 +7,18 @@
 [submodule "ts-user-service"]
 	path = ts-user-service
 	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-user-service
+[submodule "ts-tour-processing-service"]
+	path = ts-tour-processing-service
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-tour-processing-service
+[submodule "ts-tickets-service"]
+	path = ts-tickets-service
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-tickets-service
+[submodule "ts-email-service"]
+	path = ts-email-service
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-email-service
+[submodule "ts-agency-service"]
+	path = ts-agency-service
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-agency-service
+[submodule "ts-payment-service"]
+	path = ts-payment-service
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-payment-service
