@@ -9,8 +9,8 @@ include(":$common")
 val spring = "spring"
 include(":$spring")
 
-val example = "example"
-include(":$spring:$example")
+val clientwebbff = "clientwebbff"
+include(":$spring:$clientwebbff")
 
 //KTOR
 val ktor = "ktor"
