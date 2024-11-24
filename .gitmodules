@@ -1,9 +1,9 @@
 [submodule "ts-client-web-bff"]
 	path = ts-client-web-bff
 	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-client-web-bff
-[submodule "ts-user-service"]
-	path = ts-user-service
-	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-user-service
 [submodule "ts-backend-common"]
 	path = ts-backend-common
 	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-backend-common
+[submodule "ts-user-service"]
+	path = ts-user-service
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-user-service
