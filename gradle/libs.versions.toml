@@ -31,3 +31,5 @@ spring-webMVC = { module = "org.springframework.boot:spring-boot-starter-web" }
 
 ktor-core = { module = "io.ktor:ktor-server-core" }
 ktor-netty = { module = "io.ktor:ktor-server-netty" }
+ktor-contentNegotiation = { module = "io.ktor:ktor-server-content-negotiation" }
+ktor-kotlinxSerializationJson = { module = "io.ktor:ktor-serialization-kotlinx-json" }
