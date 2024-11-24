@@ -5,19 +5,16 @@ spring-kotlin = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotl
 spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
 spring-dependencyManagement = { id = "io.spring.dependency-management", version.ref = "spring-dependencyManagement" }
 
-ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
-
 [versions]
 kotlin = "2.1.0-RC"
 kotlinx-serializationJson = "1.7.3"
 kotlinx-coroutines = "1.9.0"
 kotlinx-collectionsImmutable = "0.3.8"
-koin = "4.0.0"
 
 spring-boot = "3.4.0"
 spring-dependencyManagement = "1.1.6"
 
-ktor = "3.0.1"
+exposed = "0.56.0"
 
 [libraries]
 kotlinx-coroutinesSwing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
@@ -27,9 +24,9 @@ kotlinx-collectionsImmutable = { group = "org.jetbrains.kotlinx", name = "kotlin
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
 
 spring-boot-starter = { module = "org.springframework.boot:spring-boot-starter" }
-spring-webMVC = { module = "org.springframework.boot:spring-boot-starter-web" }
+spring-boot-webMVC = { module = "org.springframework.boot:spring-boot-starter-web" }
+spring-boot-exposed = { module = "org.jetbrains.exposed:exposed-spring-boot-starter", version.ref = "exposed" }
+exposed-javaTime = {module = "org.jetbrains.exposed:exposed-java-time", version.ref = "exposed"}
+exposed-JDBC = {module = "org.jetbrains.exposed:exposed-jdbc", version.ref = "exposed"}
 
-ktor-core = { module = "io.ktor:ktor-server-core" }
-ktor-netty = { module = "io.ktor:ktor-server-netty" }
-ktor-contentNegotiation = { module = "io.ktor:ktor-server-content-negotiation" }
-ktor-kotlinxSerializationJson = { module = "io.ktor:ktor-serialization-kotlinx-json" }
+postgresqlDriver = { module = "org.postgresql:postgresql" }
