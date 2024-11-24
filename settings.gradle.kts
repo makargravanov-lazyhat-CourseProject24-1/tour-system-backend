@@ -5,16 +5,9 @@ rootProject.name = "tour-system-backend"
 val common = "ts-backend-common"
 include(":$common")
 
-//SPRING
-val spring = "spring"
-include(":$spring")
-
 val clientwebbff = "ts-client-web-bff"
-include(":$spring:$clientwebbff")
-
-//KTOR
-val ktor = "ktor"
-include(":$ktor")
+include(":$clientwebbff")
 
 val userservice = "ts-user-service"
-include(":$ktor:$userservice")
+include(":$userservice")
+
