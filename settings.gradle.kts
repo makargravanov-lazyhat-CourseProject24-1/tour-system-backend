@@ -16,5 +16,5 @@ include(":$spring:$clientwebbff")
 val ktor = "ktor"
 include(":$ktor")
 
-val userservice = "userservice"
+val userservice = "ts-user-service"
 include(":$ktor:$userservice")
