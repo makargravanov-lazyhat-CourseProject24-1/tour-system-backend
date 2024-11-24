@@ -15,11 +15,17 @@ koin = "4.0.0"
 spring-boot = "3.4.0"
 spring-dependencyManagement = "1.1.6"
 
+ktor = "3.0.1"
+
 [libraries]
 kotlinx-coroutinesSwing = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-swing", version.ref = "kotlinx-coroutines" }
 kotlinx-serializationJson = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serializationJson" }
 kotlinx-collectionsImmutable = { group = "org.jetbrains.kotlinx", name = "kotlinx-collections-immutable", version.ref = "kotlinx-collectionsImmutable" }
 
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
+
 spring-boot-starter = { module = "org.springframework.boot:spring-boot-starter" }
 spring-webMVC = { module = "org.springframework.boot:spring-boot-starter-web" }
-kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
+
+ktor-core = { module = "io.ktor:ktor-server-core", version.ref = "ktor" }
+ktor-netty = { module = "io.ktor:ktor-server-netty", version.ref = "ktor" }

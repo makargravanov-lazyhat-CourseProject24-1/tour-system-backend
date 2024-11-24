@@ -1,15 +1,15 @@
 plugins {
-	alias(libs.plugins.kotlin.jvm)
+	alias(libs.plugins.kotlin.jvm) apply false
 }
 
 repositories {
 	mavenCentral()
 }
 
-group = "ru.jetlabs"
-version = "0.0.1-SNAPSHOT"
+allprojects {
+	group = "ru.jetlabs"
+	version = "0.0.1-SNAPSHOT"
 
-subprojects {
 	apply { plugin(rootProject.libs.plugins.kotlin.jvm.get().pluginId) }
 
 	repositories {

@@ -1,8 +1,7 @@
-package ru.jetlabs.ts.example
+package ru.jetlabs.ts.clientwebbff
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import ru.jetlabs.ts.common.Example
 
 @SpringBootApplication
 class TourSystemBackendApplication
@@ -10,5 +9,5 @@ class TourSystemBackendApplication
 fun main(args: Array<String>) {
 	runApplication<TourSystemBackendApplication>(*args)
 
-	val k = Example() // FROM COMMON MODULE
+	//val k = Example() // FROM COMMON MODULE
 }

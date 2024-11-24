@@ -17,4 +17,4 @@ val ktor = "ktor"
 include(":$ktor")
 
 val userservice = "userservice"
-include(":$spring:$userservice")
+include(":$ktor:$userservice")

@@ -1,7 +1,7 @@
 plugins {
-    alias(libs.plugins.spring.kotlin)
-    alias(libs.plugins.spring.boot)
-    alias(libs.plugins.spring.dependencyManagement)
+    alias(libs.plugins.spring.kotlin) apply false
+    alias(libs.plugins.spring.boot) apply false
+    alias(libs.plugins.spring.dependencyManagement) apply false
 }
 
 subprojects {
