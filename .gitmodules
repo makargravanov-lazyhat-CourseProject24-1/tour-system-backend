@@ -1,3 +1,6 @@
 [submodule "spring/ts-client-web-bff"]
 	path = spring/ts-client-web-bff
 	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-client-web-bff
+[submodule "ktor/ts-user-service"]
+	path = ktor/ts-user-service
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-user-service
