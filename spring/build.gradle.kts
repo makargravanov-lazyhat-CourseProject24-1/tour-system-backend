@@ -12,6 +12,7 @@ subprojects {
     dependencies {
         implementation(rootProject.libs.spring.boot.starter)
         implementation(rootProject.libs.kotlin.reflect)
+        implementation(rootProject.projects.common)
     }
 
     java {
