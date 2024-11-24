@@ -5,6 +5,8 @@ spring-kotlin = { id = "org.jetbrains.kotlin.plugin.spring", version.ref = "kotl
 spring-boot = { id = "org.springframework.boot", version.ref = "spring-boot" }
 spring-dependencyManagement = { id = "io.spring.dependency-management", version.ref = "spring-dependencyManagement" }
 
+ktor = { id = "io.ktor.plugin", version.ref = "ktor" }
+
 [versions]
 kotlin = "2.1.0-RC"
 kotlinx-serializationJson = "1.7.3"
@@ -27,5 +29,5 @@ kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
 spring-boot-starter = { module = "org.springframework.boot:spring-boot-starter" }
 spring-webMVC = { module = "org.springframework.boot:spring-boot-starter-web" }
 
-ktor-core = { module = "io.ktor:ktor-server-core", version.ref = "ktor" }
-ktor-netty = { module = "io.ktor:ktor-server-netty", version.ref = "ktor" }
+ktor-core = { module = "io.ktor:ktor-server-core" }
+ktor-netty = { module = "io.ktor:ktor-server-netty" }
