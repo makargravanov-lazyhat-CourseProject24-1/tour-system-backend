@@ -22,6 +22,3 @@
 [submodule "ts-payment-service"]
 	path = ts-payment-service
 	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-payment-service
-[submodule "ts-auth-provider"]
-	path = ts-auth-provider
-	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-auth-provider
