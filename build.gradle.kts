@@ -6,6 +6,7 @@ repositories {
 	mavenCentral()
 }
 
+
 allprojects {
 	group = "ru.jetlabs"
 	version = "0.0.1-SNAPSHOT"

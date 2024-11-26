@@ -24,6 +24,7 @@ kotlinx-collectionsImmutable = { group = "org.jetbrains.kotlinx", name = "kotlin
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect" }
 
 spring-boot-starter = { module = "org.springframework.boot:spring-boot-starter" }
+
 spring-boot-webMVC = { module = "org.springframework.boot:spring-boot-starter-web" }
 spring-boot-exposed = { module = "org.jetbrains.exposed:exposed-spring-boot-starter", version.ref = "exposed" }
 exposed-javaTime = {module = "org.jetbrains.exposed:exposed-java-time", version.ref = "exposed"}

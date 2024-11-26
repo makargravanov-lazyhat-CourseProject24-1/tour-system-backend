@@ -26,3 +26,6 @@ include(":$payment")
 val agency = "ts-agency-service"
 include(":$agency")
 
+val auth_provider = "ts-auth-provider"
+include(":$auth_provider")
+
