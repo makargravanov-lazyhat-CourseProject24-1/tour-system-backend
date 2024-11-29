@@ -3,29 +3,29 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "tour-system-backend"
 
 val common = "ts-backend-common"
-include(":$common")
+includeBuild("$common")
 
 val client_web_bff = "ts-client-web-bff"
-include(":$client_web_bff")
+includeBuild("$client_web_bff")
 
 val user = "ts-user-service"
-include(":$user")
+includeBuild("$user")
 
 val email = "ts-email-service"
-include(":$email")
+includeBuild("$email")
 
 val tickets = "ts-tickets-service"
-include(":$tickets")
+includeBuild("$tickets")
 
 val tour_processing = "ts-tour-processing-service"
-include(":$tour_processing")
+includeBuild("$tour_processing")
 
 val payment = "ts-payment-service"
-include(":$payment")
+includeBuild("$payment")
 
 val agency = "ts-agency-service"
-include(":$agency")
+includeBuild("$agency")
 
 val auth_provider = "ts-auth-provider"
-include(":$auth_provider")
+includeBuild("$auth_provider")
 
