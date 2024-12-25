@@ -25,3 +25,6 @@
 [submodule "ts-auth-provider"]
 	path = ts-auth-provider
 	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-auth-provider
+[submodule "ts-tour-data-service"]
+	path = ts-tour-data-service
+	url = https://github.com/makargravanov-lazyhat-CourseProject24-1/ts-tour-data-service
